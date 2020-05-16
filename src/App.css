@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+/* <color name="primaryColor">#1a237e</color>
+<color name="primaryLightColor">#534bae</color>
+  <color name="primaryDarkColor">#000051</color>
+  <color name="secondaryColor">#b39ddb</color>
+  <color name="secondaryLightColor">#e6ceff</color>
+  <color name="secondaryDarkColor">#836fa9</color>
+  <color name="primaryTextColor">#fafafa</color>
+  <color name="secondaryTextColor">#fafafa</color> */
+
+.primary-color{
+  background-color: #1a237e;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.primary-light-color{
+  background-color: #534bae;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.primary-dark-color{
+  background-color: #000051;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.secondary-color{
+  background-color: #b39ddb;
 }
 
-.App-link {
-  color: #61dafb;
+.secondary-light-color{
+  background-color: #e6ceff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondary-dark-color{
+  background-color: #836fa9;
+}
+
+.primary-text-color, .secondary-text-color{
+  color:#fafafa;
 }
