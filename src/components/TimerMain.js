@@ -46,24 +46,19 @@ export class TimerMain extends Component {
 
     render() {
         return (
-            <div className="row">
-                <div className="col s12 m8 l6">
-                    <div className="primary-box">
-                        <h3 className="primary-text-color">
+            <div>
+                <div className="primary-box">
+                    <div className="secondary-box">
+                        <h3 className="primary-text-color timer">
                             {this.state.timeValues}
-
-                            {/* <span>{hours}:</span>
-                        <span>{minutes}:</span>
-                        <span>{seconds}</span> */}
                         </h3>
-                    </div>
-
-                    <div>
-                        <button onClick={this.handleTimer} className="btn secondary-dark-color">Start</button>
-                        <button onClick={this.handleReset} className="btn secondary-dark-color">Reset</button>
                     </div>
                 </div>
 
+                <div className="btn-div">
+                    <button onClick={this.handleTimer} className="btn secondary-dark-color">Start</button>
+                    <button onClick={this.handleReset} className="btn secondary-dark-color">Reset</button>
+                </div>
             </div>
         )
     }
