@@ -34,3 +34,25 @@
 .primary-text-color, .secondary-text-color{
   color:#fafafa;
 }
+
+.btn:hover{
+  background-color: #1a237e;
+}
+
+.btn:focus{
+  background-color: #534bae;
+}
+
+.primary-box{
+  background-color: #1a237e;
+  /* padding: 12px; */
+  height: 180px;
+  width: 400px;
+}
+
+.secondary-box{
+  /* background-color: transparent; */
+  background-color: #fff;
+  border-width: 100px;
+  border-color: tomato;
+}
