@@ -2,7 +2,7 @@
   "name": "timer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://m6code.github.io/reactjs-timer",
+  "homepage": "",
   "dependencies": {
     "cra-template": "1.0.3",
     "easytimer": "^1.1.1",
