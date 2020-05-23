@@ -14,7 +14,7 @@ function App() {
         <div className="row">
           <div className="col s12 m8 l6">
             <Switch>
-              <Route exact path='/reactjs-timer' component={TimerMain} />
+              <Route exact path='/' component={TimerMain} />
               <Route path='/countdown-timer' component={CountdownTimer} />
               <Route component={NotFound}/>
             </Switch>
